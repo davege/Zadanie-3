@@ -1,0 +1,13 @@
+		<div class="input">Szukaj eventu: <input type="text" ng-model="search.event" /></div>
+		<table>
+		    <tr>
+		      <th><a href=""  ng-click="sort='ocena'; reverse=!reverse" >Ocena</a></th>
+		      <th><a href="" >Przedmiot</a></th>
+		      <th><a href="" >Event</a></th>		      
+		    </tr>
+			<tr ng-repeat="lista in listaocen | filter:search | orderBy:sort:reverse ">
+				<td>{{ lista.ocena }}</td>				
+				<td>{{ lista.przedmiot }}</td>
+				<td>{{ lista.event }}</td>
+			</tr>
+		</table>

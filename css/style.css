@@ -1,0 +1,25 @@
+body{
+	margin: 10px;
+}
+.page > a {
+	font-weight: bold;
+	padding: 5px;
+	margin: 10px;
+}
+table {
+	margin: 10px;
+	border: 5px black solid;
+	min-width: 400px;
+}
+td {
+	border: 1px black solid;
+	text-align: center;
+}
+a {
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+.input {
+	margin: 10px;
+}

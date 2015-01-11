@@ -1,0 +1,15 @@
+<html ng-app="AppOne">
+	<head>
+		<script src="bower_components/angularjs/angular.js"></script>
+		<script src="src/app_one.js"></script>
+		<script src="bower_components/ui-router/release/angular-ui-router.min.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body ng-controller="NameController">
+		<div class="page">
+			<a ui-sref="name">Name</a>
+	  		<a ui-sref="Lista">Lista Ocen</a>
+			<div ui-view></div>
+		</div>		
+	</body>
+</html>
